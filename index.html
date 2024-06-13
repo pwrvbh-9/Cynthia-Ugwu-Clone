@@ -1,97 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cynthia Ugwu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="locomotive.css" />
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"/>
-    <link rel="stylesheet" href="locomotive.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="loader">
+      <h1>Cynthia Ugwu</h1>
+    </div>
     <div id="mini-circle"></div>
-    <div id="main">
-        <div id="hero">
-            <div id="nav">
-                <a href="#">Cynthia Ugwu</a>
-                <h4>MENU+</h4>
-            </div>
-            <div id="heading">
-                <div class="animation">
-                    <h1 class="animation-elem">Product</h1>
-                </div>
-                <div class="block-text">
-                    <div class="animation">
-                        <h1 class="animation-elem" id="heading-2">Designer</h1>
-                    </div>
-                    <div class="animation">
-                        <h5 class="animation-elem">Based in Toronto</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="right-text">
-                <div class="animation">
-                    <h5 class="animation-elem-one">available for freelance</h5>
-                </div>
-                <div class="animation">
-                    <h5 class="animation-elem-one">work form may 23'</h5>
-                </div>
-            </div>
-            <div id="hero-footer">
-                <a href="#">currently working at yml <i class="ri-arrow-right-up-line"></i></a>
-                <a href="#">protopie ambassador <i class="ri-arrow-right-up-line"></i></a>
-                <div id="iconset">
-                    <div class="circle"><i class="ri-arrow-down-line"></i></i></div>
-                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
-                </div>
-            </div>
+
+    <div id="section" data-scroll-container>
+      <div id="nav" data-scroll>
+        <a href="#">Cynthia Ugwu</a>
+        <a href="#" id="menu-btn">MENU+</a>
+        <div id="nav-menu">
+          <a href="">the plug</a>
+          <a href="#">ixperience</a>
+          <a href="#">hudu</a>
+          <a href="#">playground</a>
+          <a href="#">contact</a>
         </div>
-        <div id="second">
-            <div class="elem">
-                <img src="./assets/plug.png" alt="first image">
-                <h1>The plug</h1>
-                <h5>2022</h5>
+      </div>
+      <div id="hero" data-scroll>
+        <div id="heading">
+          <div class="animation">
+            <h1 class="animation-elem">Product</h1>
+          </div>
+          <div class="block-text">
+            <div class="animation">
+              <h1 class="animation-elem" id="heading-2">Designer</h1>
             </div>
-            <div class="elem">
-                <img src="./assets/ixperience.png" alt="second image">
-                <h1>ixperience</h1>
-                <h5>2022</h5>
+            <div class="animation">
+              <h5 class="animation-elem">Based in Toronto</h5>
             </div>
-            <div class="elem elem-last">
-                <img src="./assets/hudu.png" alt="third image">
-                <h1>hudu</h1>
-                <h5>2021</h5>
-            </div>
+          </div>
         </div>
-        <div id="about">
-            <img src="./assets/cynthia.png" alt="about image">
-            <div class="about-text">
-                <h5>(About me)</h5>
-                <p>I'm a product designer with a passion for creating products that not only look good but also solve real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix series or playing video games. My design philosophy is simple: make it visually appealing, functional, and bring a smile to people's faces. I'm the designer you want on your team if you want to make people say 'I need that in my life!'.</p>
-                <a href="#">Let's Talk</a>
-            </div>
+        <div class="right-text">
+          <div class="animation">
+            <h5 class="animation-elem-one">available for freelance</h5>
+          </div>
+          <div class="animation">
+            <h5 class="animation-elem-one">work form may 23'</h5>
+          </div>
         </div>
-        <div id="youtube">
-            <h5>forgot to mention</h5>
-            <h3>subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i></h3>
+        <div id="hero-footer">
+          <a href="#"
+            >currently working at yml <i class="ri-arrow-right-up-line"></i
+          ></a>
+          <a href="#"
+            >protopie ambassador <i class="ri-arrow-right-up-line"></i
+          ></a>
+          <div id="iconset">
+            <div class="circle"><i class="ri-arrow-down-line"></i></div>
+            <div class="circle"><i class="ri-arrow-down-line"></i></div>
+          </div>
         </div>
-        <div id="footer">
-            <div id="footer-left">
-                <h5>2023 &copy;</h5>
-                <h5>1:04 PM EST</h5>
-            </div>
-            <div id="footer-right">
-                <a href="#">dribble</a>
-                <a href="#">instagram</a>
-                <a href="#">linkedin</a>
-                <a href="#">twitter</a>
-            </div>
+      </div>
+      <div id="second" data-scroll>
+        <div class="elem">
+          <img src="./assets/plug.png" alt="first image" />
+          <h1>The plug</h1>
+          <h5>2022</h5>
         </div>
-    </div> 
+        <div class="elem">
+          <img src="./assets/ixperience.png" alt="second image" />
+          <h1>ixperience</h1>
+          <h5>2022</h5>
+        </div>
+        <div class="elem elem-last">
+          <img src="./assets/hudu.png" alt="third image" />
+          <h1>hudu</h1>
+          <h5>2021</h5>
+        </div>
+      </div>
+      <div id="about" data-scroll>
+        <img src="./assets/cynthia.png" alt="about image" />
+        <div class="about-text">
+          <h5>(About me)</h5>
+          <p>
+            I'm a product designer with a passion for creating products that not
+            only look good but also solve real problems. When I'm not sketching
+            ideas on paper, you can find me binge-watching a Netflix series or
+            playing video games. My design philosophy is simple: make it
+            visually appealing, functional, and bring a smile to people's faces.
+            I'm the designer you want on your team if you want to make people
+            say 'I need that in my life!'.
+          </p>
+          <a href="#" id="about-btn">Let's Talk</a>
+        </div>
+      </div>
+      <div id="youtube" data-scroll>
+        <h5>forgot to mention</h5>
+        <h3>
+          subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i>
+        </h3>
+      </div>
+      <div id="footer" data-scroll>
+        <div id="footer-left">
+          <h5>2023 &copy;</h5>
+          <h5 id="time-heading"></h5>
+        </div>
+        <div id="footer-right">
+          <a href="#">dribble</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+          <a href="#">twitter</a>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
