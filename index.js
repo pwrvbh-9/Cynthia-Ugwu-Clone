@@ -72,10 +72,24 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     });
   });
 
+  elem.addEventListener("mouseover", function () {
+    gsap.to(elem.querySelector("h1"), {
+      x: 50,
+      duration: 0.8,
+      ease: "power1",
+    });
+  });
+
   elem.addEventListener("mouseleave", function () {
     gsap.to(elem.querySelector("img"), {
       opacity: 0,
       ease: "power2",
+    });
+
+    gsap.to(elem.querySelector("h1"), {
+      x: 0,
+      duration: 0.8,
+      ease: "power1",
     });
   });
 });
@@ -85,7 +99,7 @@ function loadAnime() {
 
   setTimeout(function () {
     load.style.top = "-100%";
-  }, 1500);
+  }, 1400);
 }
 
 loadAnime();
